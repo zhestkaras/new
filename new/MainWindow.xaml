@@ -1,0 +1,164 @@
+﻿<Window x:Class="new.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:new"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+
+<Window.Resources>
+    <Style x:Key="Blue">
+        <Setter Property ="Control.Background" Value="DarkBlue"/>
+        <Setter Property="Control.Margin" Value="20,20,10,0"/>
+
+    </Style>
+</Window.Resources>
+    
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+
+        </Grid.ColumnDefinitions>
+
+        <Rectangle Fill="DeepSkyBlue" Grid.ColumnSpan="3" Grid.RowSpan="13" Panel.ZIndex="-1"/>
+        <Label Grid.Column="1"  Grid.Row="0" HorizontalAlignment="Center" Foreground="White" FontSize="20" VerticalAlignment="Center" Content="Company"/>
+        <Label Grid.Column="0"  Grid.Row="0" HorizontalAlignment="Center" Foreground="White" FontSize="20" VerticalAlignment="Center" Content="Common"/>
+        <Label Grid.Column="1"  Grid.Row="3" HorizontalAlignment="Center" Foreground="White" FontSize="20" VerticalAlignment="Center" Content="Contact"/>
+        <Label Grid.Column="0"  Grid.Row="5" HorizontalAlignment="Center" Foreground="White" FontSize="20" VerticalAlignment="Center" Content="Contact"/>
+        <Label Grid.Column="1"  Grid.Row="9" HorizontalAlignment="Center" Foreground="White" FontSize="20" VerticalAlignment="Center" Content="Adress"/>
+        <Label Grid.Column="0"  Grid.Row="10" HorizontalAlignment="Center" Foreground="White" FontSize="20" VerticalAlignment="Center" Content="Adress"/>
+
+        <StackPanel x:Name="buttonsStack" Background="DarkBlue" >
+            <TextBox Grid.Row="2 " Style="{StaticResource Blue}"  />
+           
+        </StackPanel>
+
+        <StackPanel Grid.Column="0"  Grid.Row="2"  >
+            <Label />
+            <TextBox  />
+        </StackPanel>
+
+        <StackPanel Grid.Column="0"  Grid.Row="3"  >
+            <Label />
+            <TextBox  />
+        </StackPanel>
+
+        <StackPanel Grid.Column="0"  Grid.Row="4"  >
+            <Label />
+            <TextBox  />
+        </StackPanel>
+
+        <StackPanel Grid.Column="0"  Grid.Row="6"  >
+            <Label />
+            <TextBox  />
+        </StackPanel>
+
+        <StackPanel Grid.Column="0"  Grid.Row="7"  >
+            <Label />
+            <TextBox  />
+
+        </StackPanel>
+        <StackPanel Grid.Column="0"  Grid.Row="8"  >
+
+            <Label />
+            <TextBox  />
+        </StackPanel>
+
+
+        <StackPanel Grid.Column="0"  Grid.Row="9"  >
+
+            <Label />
+            <TextBox  />
+        </StackPanel>
+
+        <StackPanel Grid.Column="0"  Grid.Row="11"  >
+            <Label />
+            <TextBox  />
+
+        </StackPanel>
+        <StackPanel Grid.Column="0"  Grid.Row="12"  >
+            <Label />
+            <TextBox  />
+
+        </StackPanel>
+        <StackPanel Grid.Column="1"  Grid.Row="1"  >
+            <Label />
+            <TextBox  />
+        </StackPanel>
+
+        <StackPanel Grid.Column="1"  Grid.Row="2"  >
+            <Label />
+            <TextBox  />
+        </StackPanel>
+
+        <StackPanel Grid.Column="1"  Grid.Row="4"  >
+            <Label />
+            <TextBox  />
+        </StackPanel>
+
+        <StackPanel Grid.Column="1"  Grid.Row="6"  >
+            <Label />
+            <TextBox  />
+        </StackPanel>
+
+        <StackPanel Grid.Column="1"  Grid.Row="7"  >
+            <Label />
+            <TextBox  />
+
+        </StackPanel>
+        <StackPanel Grid.Column="1"  Grid.Row="8"  >
+
+            <Label />
+            <TextBox  />
+        </StackPanel>
+
+
+        <StackPanel Grid.Column="1"  Grid.Row="5"  >
+
+            <Label />
+            <TextBox  />
+        </StackPanel>
+
+        <StackPanel Grid.Column="1"  Grid.Row="10"  >
+            <Label />
+            <TextBox  />
+
+        </StackPanel>
+
+        <StackPanel Grid.Column="1"  Grid.Row="11"  >
+            <Label />
+            <TextBox  />
+
+        </StackPanel>
+        <StackPanel Grid.Column="1"  Grid.Row="12"  >
+            <Label />
+            <TextBox  />
+
+        </StackPanel>
+
+      </Grid>
+
+
+
+    </Window>
